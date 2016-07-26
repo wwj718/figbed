@@ -48,6 +48,8 @@ PATH_SAVEAS: /tmp
 * 目前在mac测试通过，理论上可以运行pngpaste系统都可以
 fig
 
+# todo
+*  图片名加上部分uuid，防止覆盖
 
 
 # 其他操作系统

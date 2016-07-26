@@ -65,3 +65,6 @@ fig
 *  python3 setup.py register
 *  python3 setup.py sdist upload 
 *  readme.md和图片都不会被setup.py build
+
+### 七牛图片缩放
+IMG_URL?imageView2/2/w/1000 （等比例缩放为宽度1000）

@@ -3,7 +3,7 @@
 
 from setuptools import setup
 
-with open('README.md') as readme_file:
+with open('README.rst') as readme_file:
     readme = readme_file.read()
 
 with open('HISTORY.rst') as history_file:
@@ -20,7 +20,7 @@ test_requirements = [
 
 setup(
     name='figbed',
-    version='0.1.0',
+    version='0.1.2',
     description="figbed is an easy to use fig bed when you writing with markdown",
     long_description=readme + '\n\n' + history,
     author="wenjie wu",

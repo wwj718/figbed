@@ -10,6 +10,8 @@ inspired by [cut](https://github.com/xiaochao/cut)
 # 介绍
 自动截图并上传到七牛的脚本
 
+![figbed](http://oav6fgfj1.bkt.clouddn.com/figbed.gif)
+
 ###依赖安装
 * 安装[pngpaste](https://github.com/jcsalterego/pngpaste)
     * mac下: brew install pngpaste

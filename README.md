@@ -22,7 +22,7 @@ inspired by [cut](https://github.com/xiaochao/cut)
 
 ![figbed](http://oav6fgfj1.bkt.clouddn.com/figbed_md1.png)
 
-上边这张截图就是采用fidbed处理的
+上边这张截图就是采用figbed处理的
 
 4. 新建`cat ~/.qiniu.yml`,形如
 
@@ -44,7 +44,7 @@ PATH_SAVEAS: /tmp
 * 目前只支持上传到七牛
 * 有时候command+v无法获取到url，那么请等一会，具体取决于您的网速
 * 目前在mac测试通过，理论上可以运行pngpaste系统都可以
-
+fig
 
 
 

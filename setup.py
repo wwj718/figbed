@@ -20,7 +20,7 @@ test_requirements = [
 
 setup(
     name='figbed',
-    version='0.1.2',
+    version='0.1.5',
     description="figbed is an easy to use fig bed when you writing with markdown",
     long_description=readme + '\n\n' + history,
     author="wenjie wu",

@@ -10,6 +10,7 @@ import operator
 import commands
 from PIL import Image
 from hashlib import md5
+import uuid
 from qiniu import Auth, put_file, etag
 import yaml
 from os.path import expanduser,join
@@ -58,7 +59,8 @@ def upload_file(upload_file_name, temp):
     # key 请求用户输入
     print u"请输入图片名: ",
     pic_name = raw_input()
-    key = pic_name+".png"
+    uuid_6 = uuid.uuid4().get_hex()[:8] #保证唯一性
+    key = pic_name+"_"+uuid_6+".png"
     copyfile(upload_file_name,join(saveas,key))
     mime_type = 'image/png'
     token = q.upload_token(bucket, key)

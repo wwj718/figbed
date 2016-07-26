@@ -51,3 +51,15 @@ PATH_SAVEAS: /tmp
 # 其他操作系统
 ### windows
 (在windows下可以尝试直接调用截图库,如QQ截图：CameraDll.dll: `dll = ctypes.cdll.LoadLibrary('CameraDll.dll')`
+
+
+
+
+
+--- 
+
+# 附
+### 上传package到pypi
+*  python3 setup.py register
+*  python3 setup.py sdist upload 
+

@@ -68,3 +68,9 @@ fig
 
 ### 七牛图片缩放
 IMG_URL?imageView2/2/w/1000 （等比例缩放为宽度1000）
+
+
+### gif
+使用[gif_bed](https://github.com/wwj718/gif_bed)来存放gif动态图，github会把外部动态图截取，所以需要存在github上。
+
+不存在本仓库内，避免使源码库变大

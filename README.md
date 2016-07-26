@@ -64,4 +64,4 @@ fig
 ### 上传package到pypi
 *  python3 setup.py register
 *  python3 setup.py sdist upload 
-
+*  readme.md和图片都不会被setup.py build
